@@ -20,8 +20,6 @@ cask "zulu-jdk11" do
   name "Azul Zulu Java Standard Edition Development Kit"
   homepage "https://www.azul.com/downloads/zulu/zulu-mac/"
 
-  depends_on macos: ">= :sierra"
-
   pkg "Double-Click to Install Zulu #{version.major}.pkg"
 
   uninstall pkgutil: "com.azulsystems.zulu.#{version.major}"
