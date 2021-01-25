@@ -1,4 +1,4 @@
-cask "zulu" do
+cask "zulu-jdk11" do
   if Hardware::CPU.intel?
     version "11.0.10,11.45.27-ca"
     sha256 "1c59885634ad438c9b198d31b9dd2aa310922484b3a0ffec603eec1b02eb898e"
